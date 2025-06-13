@@ -19,7 +19,7 @@ export default function Navbar() {
             <h1 className="font-bold text-2xl float-left">S</h1>
             <NavigationMenuItem className="flex flex-row float-right gap-x-3">
                 <NavigationMenuLink asChild className="hover:text-[#7197D3]">
-                    <Link href="" className="font-medium hover:bg-transparent">Projects</Link>
+                    <Link href="/" className="font-medium hover:bg-transparent">Projects</Link>
                 </NavigationMenuLink>
 
                 <NavigationMenuLink asChild className="hover:text-[#7197D3]">
