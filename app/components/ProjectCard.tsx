@@ -15,7 +15,7 @@ export default function ProjectCard({title, role, description, github, live, tec
   return (
     <Card className="drop-shadow-none shadow-none rounded-sm border- border-[#CFE1F3]">
         <CardHeader>
-            <CardTitle className="text-2xl text-[#2B4C6D]">{title}</CardTitle>
+            <CardTitle><h1 className="text-2xl text-[#2B4C6D] font-bold">{title}</h1></CardTitle>
             <CardDescription>{role}</CardDescription>
         </CardHeader>
         <CardContent className="flex flex-col gap-y-3">

@@ -23,13 +23,15 @@ const projects = [
 ]
 export default function Projects() {
   return (
-    <div className="flex flex-col gap-y-7 md:flex-row md:gap-x-5 px-4 md:px-20 py-30" id="projects">
-        {/* <h1 className="text-3xl md:text-5xl font-semibold text-[#2B4C6D]">Projects</h1> */}
-        {projects.map((project, index) => (
+    <div className="flex flex-col gap-y-7 px-4 md:px-20 py-30" id="projects">
+        <h1 className="text-4xl font-bold text-[#2B4C6D] italic">Selected Works</h1>
+        <div className="flex flex-col gap-y-7 md:flex-row md:gap-x-5">
+            {projects.map((project, index) => (
             <div className='flex flex-wrap justify-center w-full flex-grow flex-shrink basis-0 items-stretch' key={index}>
                 <ProjectCard title={project.title} role={project.role} description={project.description} github={project.github} live={project.live} tech={project.tech}/>
             </div>
         ))}
+        </div>
     </div>
   )
 }

@@ -10,12 +10,12 @@
   --font-mono: var(--font-geist-mono);
 } */
 
-/* body {
-  font-family: var(--font-baskervville);
-} */
+body {
+  font-family: var(--font-outfit);
+}
 
-h1, body {
-  font-family: var(--font-fredoka);
+h1 {
+  font-family: var(--font-ibm-plex-sans);
 }
 
 @theme inline {
