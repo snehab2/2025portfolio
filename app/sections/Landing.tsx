@@ -10,6 +10,7 @@ export default function Landing() {
             style={{objectFit: "cover"}}
             unoptimized= {true}
             className="w-full"
+            quality={100}
         />
         <div className="parent absolute flex h-screen">
             <div className="paragraph flex flex-col m-auto px-4 md:px-20">
