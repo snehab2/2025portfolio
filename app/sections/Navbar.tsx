@@ -18,16 +18,16 @@ export default function Navbar() {
         <NavigationMenuList className="py-5 px-10 w-screen flex justify-between absolute z-99">
             <h1 className="font-bold text-2xl float-left italic text-[#2B4C6D]">S.</h1>
             <NavigationMenuItem className="flex flex-row float-right gap-x-3">
-                <NavigationMenuLink asChild className="hover:text-[#7197D3] text-[#2B4C6D]">
-                    <Link href="/" className="font-medium hover:bg-transparent">Projects</Link>
+                <NavigationMenuLink asChild className="hover:text-[#7197D3] text-[#2B4C6D] hover:underline">
+                    <Link href="/" className="font-medium hover:bg-transparent">projects</Link>
                 </NavigationMenuLink>
 
-                <NavigationMenuLink asChild className="hover:text-[#7197D3] text-[#2B4C6D]">
-                    <Link href="" className="font-medium hover:bg-transparent">Playground</Link>
+                <NavigationMenuLink asChild className="hover:text-[#7197D3] text-[#2B4C6D] hover:underline">
+                    <Link href="" className="font-medium hover:bg-transparent">playground</Link>
                 </NavigationMenuLink>
 
-                <NavigationMenuLink asChild className="hover:text-[#7197D3] text-[#2B4C6D]">
-                    <Link href="" className="font-medium hover:bg-transparent">About</Link>
+                <NavigationMenuLink asChild className="hover:text-[#7197D3] text-[#2B4C6D] hover:underline">
+                    <Link href="" className="font-medium hover:bg-transparent">about</Link>
                 </NavigationMenuLink>
             </NavigationMenuItem>
         </NavigationMenuList>

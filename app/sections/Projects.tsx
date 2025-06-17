@@ -6,7 +6,7 @@ const projects = [
     {
         title: "WEHackV",
         role: "Team Lead, Developer",
-        description: "Official website for WEHack V (2024-2025), a hackathon management platform. Developed by WEHack team with collaboration with ACM UTSA.",
+        description: "Official website for WEHack V (2024-2025), a hackathon management platform. Developed by WEHack team (2024-2025) with collaboration with ACM UTSA. Led redesign of WEHack V website.",
         github: "https://github.com/WEHackUTD/WEHackV",
         live: "https://wehack-ee2yptcth-wehack-utd.vercel.app/",
         tech: "TypeScript, Next.js, Tailwind CSS, Drizzle ORM, shadcn, NeonDB, Upstash, UploadThing, Vercel",

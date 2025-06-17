@@ -17,10 +17,7 @@ export default function Landing() {
                 <h1 className="text-6xl md:text-7xl font-semibold text-white italic drop-shadow-md">Hi, I'm Sneha.</h1>
                 <p className="text-lg font-medium text-white drop-shadow-md">Intersecting art and technology to create joyful experiences.</p>
             </div>
-            
         </div>
-        
-       
     </div>
   )
 }
