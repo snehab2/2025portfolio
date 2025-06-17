@@ -25,15 +25,15 @@ export default function ProjectCard({title, role, description, github, live, tec
             className="w-full rounded-lg"
             quality={100}
         />
-        <CardHeader className="">
+        <CardHeader className="px-0">
             <CardTitle><h1 className="text-2xl text-[#2B4C6D] font-bold">{title}</h1></CardTitle>
             <CardDescription>{role}</CardDescription>
         </CardHeader>
-        <CardContent className="flex flex-col gap-y-3">
+        <CardContent className="flex flex-col gap-y-3 px-0">
             <p className="text-lg">{description}</p>
             <p className="text-sm text-[#7197D3]">{tech}</p>
         </CardContent>
-        <CardFooter className="flex flex-row gap-x-3">
+        <CardFooter className="flex flex-row gap-x-3 px-0">
             <Link href={live} target="_blank" className="bg-[#CFE1F3] px-3 py-1 rounded-4xl font-medium hover:bg-[#FFBA9C] text-[#2B4C6D] transition ease-in-out delay-75">Live</Link>
             <Link href={github} target="_blank" className="bg-[#CFE1F3] px-3 py-1 rounded-4xl font-medium hover:bg-[#FFBA9C] text-[#2B4C6D] transition ease-in-out delay-75">Github</Link>
         </CardFooter>
