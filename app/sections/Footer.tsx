@@ -21,7 +21,7 @@ export default function Footer() {
                 <p className="text-lg font-medium text-white drop-shadow-md">Made with sleep, matcha, & a cat</p>
                 <p className="text-md font-medium text-white drop-shadow-md">Updated 6/2025</p>
                 <div className="flex flex-row gap-x-3 pt-4">
-                    <Link href="www.linkedin.com/in/sneha-bista-1b784b229" target="_blank">
+                    <Link href="https://www.linkedin.com/in/sneha-bista-1b784b229" target="_blank">
                       <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width={30}
