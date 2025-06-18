@@ -17,9 +17,9 @@ export default function Footer() {
         />
         <div className="parent absolute flex">
             <div className="paragraph flex flex-col m-auto px-4 md:px-20 mt-10">
-                <h1 className="text-4xl font-semibold text-white italic drop-shadow-md">Thanks for stopping by!</h1>
-                <p className="text-lg font-medium text-white drop-shadow-md">Made with sleep, matcha, & a cat</p>
-                <p className="text-md font-medium text-white drop-shadow-md">Updated 6/2025</p>
+                <h1 className="text-2xl md:text-4xl font-semibold text-white italic drop-shadow-md">Thanks for stopping by!</h1>
+                <p className="text-md md:text-lg font-medium text-white drop-shadow-md">Made with sleep, matcha, & a cat</p>
+                <p className="text-base md:text-md font-medium text-white drop-shadow-md">Updated 6/2025</p>
                 <div className="flex flex-row gap-x-3 pt-4">
                     <Link href="https://www.linkedin.com/in/sneha-bista-1b784b229" target="_blank">
                       <svg
